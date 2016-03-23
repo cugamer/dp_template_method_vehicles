@@ -11,7 +11,9 @@ public class ReadyVehicles {
 		car.prepare();
 		System.out.println("------------------------------------------------------------");
 
-		
+		SailBoat boat = new SailBoat();
+		boat.prepare();
+		System.out.println("------------------------------------------------------------");
 	}
 
 }
