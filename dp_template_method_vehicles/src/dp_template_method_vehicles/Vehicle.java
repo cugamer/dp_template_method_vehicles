@@ -13,11 +13,11 @@ public abstract class Vehicle {
 		powerOn();
 	}
 	
-	void wash(){
+	final void wash(){
 		System.out.println(this.name + " is being washed");
 	}
 	
-	void unlock(){
+	final void unlock(){
 		System.out.println(this.name + " is now unlocked");
 	}
 	

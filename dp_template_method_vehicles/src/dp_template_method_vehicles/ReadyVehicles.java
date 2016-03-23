@@ -13,7 +13,5 @@ public class ReadyVehicles {
 
 		SailBoat boat = new SailBoat();
 		boat.prepare();
-		System.out.println("------------------------------------------------------------");
 	}
-
 }
