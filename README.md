@@ -1,5 +1,5 @@
-Vehicles prepare template method pattern
-========================================
+Vehicles preparation template method pattern
+============================================
 
 An implementation of the template method pattern as applied to an application involving vehicles and their preparation.  The abstract
 parent class Vehicle has a prepare() method.  This method acts to get the vehicle ready and calls several other methods.  The wash() 
