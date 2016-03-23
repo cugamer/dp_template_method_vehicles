@@ -1,7 +1,7 @@
 package dp_template_method_vehicles;
 
 public abstract class Vehicle {
-	private String name;
+	public String name;
 
 	public final void prepare(){
 		wash();
