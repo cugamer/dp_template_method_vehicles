@@ -6,7 +6,12 @@ public class ReadyVehicles {
 		AirPlane plane = new AirPlane();
 		plane.prepare();
 		System.out.println("------------------------------------------------------------");
+		
+		DisplayCar car = new DisplayCar();
+		car.prepare();
+		System.out.println("------------------------------------------------------------");
 
+		
 	}
 
 }
